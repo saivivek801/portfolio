@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
 <React.StrictMode>
-    <BrowserRouter basename='/saivivek/'>
+    <BrowserRouter basename='/portfolio/'>
     <App />
     </BrowserRouter>
 </React.StrictMode>,
