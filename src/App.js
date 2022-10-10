@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css"
+import NavbarJs from "./components/NavbarJs"
+import MouseCanvas from "./components/MouseCanvas"
+import AnimatedRoutes from "./AnimatedRoutes/index"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+    return(
+        <div style={{overflow:"hidden",minHeight:"100vh",backgroundRepeat:"repeat-y", backgroundImage:"url(https://d33wubrfki0l68.cloudfront.net/daac8858fd4a0ccea44f59dfd079c3c16c263f33/c157c/assets/svg/common-bg.svg)"}}>
+        <MouseCanvas/>
+        <div className="nav-page">
+        <NavbarJs/>
+        <AnimatedRoutes/>
+        </div>
+        </div>
+    )
 }
 
-export default App;
+export default App

@@ -1,0 +1,73 @@
+.skillsIcons1{
+    font-size: 24px;
+    padding :16px;
+    color:#EC3A3B;
+    background-color : #222;
+    border-radius : 22px;
+}
+
+.skillsIcons2{
+    font-size: 24px;
+    padding :16px;
+    color:#1273EB;
+    background-color : #222;
+    border-radius : 22px;
+}
+.skillsIcons3{
+    font-size: 24px;
+    padding :16px;
+    color:#FFDF00;
+    background-color : #222;
+    border-radius : 22px;
+}
+.skillsIcons4{
+    font-size: 24px;
+    padding :16px;
+    color:#5E3B7F;
+    background-color : #222;
+    border-radius : 22px;
+}
+.skillsIcons5{
+    font-size: 24px;
+    padding :16px;
+    color:#00D8F7;
+    background-color : #222;
+    border-radius : 22px;
+}
+.skillsIcons6{
+    font-size: 24px;
+    padding :16px;
+    color:#ffffff;
+    background-color : #222;
+    border-radius : 22px;
+}
+.skillsIcons7{
+    font-size: 24px;
+    padding :16px;
+    color:#A9D47A;
+    background-color : #222;
+    border-radius : 22px;
+}
+
+.aboutMe{
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.mySkills{
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: bold;
+    color: #000000;
+}
+
+@media screen and (max-width : 576px){
+    .skillsIcons1,.skillsIcons2,.skillsIcons3,.skillsIcons4,.skillsIcons5,.skillsIcons6,.skillsIcons7{
+        font-size: 10px;
+    }
+    .aboutMe,.mySkills{
+        font-size: 16px;
+    }
+}

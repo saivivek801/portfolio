@@ -1,0 +1,28 @@
+.imgBg{
+    margin: 16px;
+    border: 2px solid aqua;
+    object-fit: cover;
+    height: auto;
+    width: 250px;
+}
+
+@media screen and (max-width : 576px) {
+    .imgBg{
+        width: 140px;
+    }
+}
+.projectCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+}
+.listStyle{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}

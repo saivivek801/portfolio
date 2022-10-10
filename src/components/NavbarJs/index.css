@@ -1,0 +1,46 @@
+.glassBg{
+background: rgba(255, 255, 255, 0.14);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.5px);
+-webkit-backdrop-filter: blur(2px);
+border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.menuLogo{
+    font-size: 24px;
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menuText{
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    margin-left: 20px;
+    font-weight: 400;
+}
+
+.menuText:hover{
+    color: #F95700FF !important;
+}
+
+.menuLogo:hover{
+    color: #F95700FF !important;
+}
+
+.active{
+    color: #F95700FF;
+    border-bottom: 2px solid #F95700FF;
+}
+
+@media screen and (max-width : 576px) {
+    .menuLogo{
+        font-size: 22px;
+    }
+    .menuText{
+        font-size: 18px;
+    }
+}

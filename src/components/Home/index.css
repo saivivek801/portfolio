@@ -1,0 +1,39 @@
+.myName{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 56px;
+    letter-spacing: 0.5px;
+    color: #000;
+}
+
+.myInfo{
+    font-weight: 400;
+    font-size: 22px;
+    width: 50vw;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #000;
+    margin: 0;
+}
+
+.homeCenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+
+
+@media screen and (max-width:576px){
+    .myName{
+        font-size: 24px;
+    }
+    .myInfo{
+        font-size: 18px;
+    }
+    .iconFont{
+        font-size: 20;
+    }
+}
